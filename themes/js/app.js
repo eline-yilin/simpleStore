@@ -1,4 +1,4 @@
-var current_page = default_page = 'about';
+var current_page = default_page = 'bussiness';
 
 $(document).ready(function(){
 	
@@ -24,5 +24,7 @@ $(document).ready(function(){
 		//$('html body').animate({ scrollTop: 580 }, 800);
 		$('html body').animate({ scrollTop: $('#' + current_page + '-content').offset().top - 50 }, time_diff);
 	});
+	//alert($('.nav li.nav-item.active').attr('id'));
+	$('.nav li.nav-item.active').trigger('click');
 	
 });

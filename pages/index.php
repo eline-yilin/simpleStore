@@ -1,22 +1,69 @@
 <?php
 include '../includes/header.php';
+include '../config/products.php';
 ?>
 
 <div id='about-content' class='page-section' >
  	 <div class='my-bg'>
     		<img src="<?php echo THEME_PATH;?>images/nav-bg.jpg" />
     </div>
-    a
+    <div class="container-fluid">
+	    <div class='row bussiniess-list'>
+	    	<div class="col-md-4 col-sm-4 col-xs-4"><div class='my-circle my-red'>bussiness</div></div>
+	    	<div class="col-md-4  col-sm-4  col-xs-4"><div class='my-circle my-orange'>bussiness</div></div>
+	    	<div class="col-md-4  col-sm-4  col-xs-4"><div class='my-circle my-blue'>bussiness</div></div>
+	    </div>
+    </div>
 </div>
 <div id='bussiness-content' class='page-section' >
 	<div class='my-bg'>
     		<img src="<?php echo THEME_PATH;?>images/2.jpg" />
     </div>
     <div class="container-fluid">
-	    <div class='row bussiniess-list'>
-	    	<div class="col-md-4 col-sm-4 col-xs-4"><div class='my-circle my-red'>bussiness</div></div>
-	    	<div class="col-md-4  col-sm-4  col-xs-4"><div class='my-circle my-orange'>bussiness</div></div>
-	    	<div class="col-md-4  col-sm-4  col-xs-4"><div class='my-circle my-blue'>bussiness</div></div>
+	    <div class='product-list'>
+	    <?php foreach($_products as $product):?>
+	       <div class="panel panel-warning">
+	            <div class="panel-heading"><?php echo $product['name']?></div>
+	       		<div class="panel-body">
+				    <div class = 'row'>
+				    	<div class=" col-md-4 col-sm-4 col-xs-4">abc</div>
+				    	<div class=" col-md-8 col-sm-8 col-xs-8 ">
+					    	  <div class = 'row price'>
+						    	  	<div class=" col-md-2 col-sm-3 col-xs-4">
+						    	  		<span class="label label-primary">
+						    	  			<span class="glyphicon glyphicon-usd"></span>价格
+						    	  		</span>
+						    	  	</div>
+					    			<div class=" col-md-10 col-sm-9 col-xs-8 ">
+					    				<?php echo $product['price']?>
+					    			</div>
+					    	  </div>
+					    	  <div class = 'row address'>
+						    	  	<div class=" col-md-2 col-sm-3 col-xs-4">
+						    	  		<span class="label label-primary">
+						    	  			<span class="glyphicon glyphicon-road"></span>产地
+						    	  		</span>
+						    	  	</div>
+					    			<div class=" col-md-10 col-sm-9 col-xs-8 ">
+					    				<?php echo $product['address']?>
+					    			</div>
+					    	  </div>
+					    	  <div class = 'row tag'>
+						    	  	<div class=" col-md-2 col-sm-3 col-xs-4">
+						    	  		<span class="label label-primary">
+						    	  			<span class="glyphicon glyphicon-tag"></span>标签
+						    	  		</span>
+						    	  	</div>
+					    			<div class=" col-md-10 col-sm-9 col-xs-8 ">
+					    				<?php echo $product['tag']?>
+					    			</div>
+					    	  </div>
+				    	</div>
+				    </div>
+				</div>
+ 		   		<div class="panel-footer">Panel footer</div>
+	       </div>
+	       <?php endforeach;?>
 	    </div>
     </div>
 </div>
