@@ -77,3 +77,6 @@
 {
 	padding:10px;
 }
+.list-item {margin-top:10px;}
+.panel-body .description .row{margin:3px 0px;}
+.product-item .panel-body .img img{width:100%;}
