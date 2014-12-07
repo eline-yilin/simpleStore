@@ -10,7 +10,7 @@ include '../includes/header.php';
 </div>
 <div id='bussiness-content' class='page-section' >
 	<div class='my-bg'>
-    		<img src="<?php echo THEME_PATH;?>images/bussiness.jpg" />
+    		<img src="<?php echo THEME_PATH;?>images/2.jpg" />
     </div>
     <div class="container-fluid">
 	    <div class='row bussiniess-list'>
