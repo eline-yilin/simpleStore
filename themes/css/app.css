@@ -1,4 +1,6 @@
 @CHARSET "UTF-8";
+body
+{font-size:22px;}
 .my-circle{border-radius:50%;}
 .my-red{background:red;color:#fff;}
 .my-orange{background:#ee7337;color:#fff;}

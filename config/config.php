@@ -1,8 +1,11 @@
 <?php
-define('THEME_PATH', 'http://localhost/store/themes/');
+/* define('THEME_PATH', 'http://localhost/store/themes/');
 define('PAGE_PATH', 'http://localhost/store/pages/');
-define('SITE_ROOT', 'http://localhost/store/');
+define('SITE_ROOT', 'http://localhost/store/'); */
 
+define('THEME_PATH', 'http://120.24.73.33:8080/themes/');
+define('PAGE_PATH', 'http://120.24.73.33:8080/pages/');
+define('SITE_ROOT', 'http://120.24.73.33:8080/');
 
 
 $nav_array = array(

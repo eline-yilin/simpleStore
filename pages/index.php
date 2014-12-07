@@ -8,7 +8,7 @@ include '../config/products.php';
     		<img src="<?php echo THEME_PATH;?>images/nav-bg.jpg" />
     </div>
     <div class="container-fluid" style='margin-top:10px;'>
-    <p style='txt-align:center;'>
+    <p style='text-align:center;'>
     我就是我　不一样的烟火。。。
     <br>
     敬请关注后续更新。。</p>
@@ -35,7 +35,7 @@ include '../config/products.php';
 					    	  <div class = 'row price'>
 						    	  	<div class=" col-md-2 col-sm-3 col-xs-4">
 						    	  		<span class="label label-primary">
-						    	  			<span class="glyphicon glyphicon-usd"></span>价格
+						    	  			<span class="glyphicon glyphicon-usd"></span> 价格
 						    	  		</span>
 						    	  	</div>
 					    			<div class=" col-md-10 col-sm-9 col-xs-8 ">
@@ -45,7 +45,7 @@ include '../config/products.php';
 					    	  <div class = 'row size'>
 						    	  	<div class=" col-md-2 col-sm-3 col-xs-4">
 						    	  		<span class="label label-primary">
-						    	  			<span class="glyphicon glyphicon-briefcase"></span>规格
+						    	  			<span class="glyphicon glyphicon-briefcase"></span> 规格
 						    	  		</span>
 						    	  	</div>
 					    			<div class=" col-md-10 col-sm-9 col-xs-8 ">
@@ -55,7 +55,7 @@ include '../config/products.php';
 					    	  <div class = 'row address'>
 						    	  	<div class=" col-md-2 col-sm-3 col-xs-4">
 						    	  		<span class="label label-primary">
-						    	  			<span class="glyphicon glyphicon-road"></span>产地
+						    	  			<span class="glyphicon glyphicon-road"></span> 产地
 						    	  		</span>
 						    	  	</div>
 					    			<div class=" col-md-10 col-sm-9 col-xs-8 ">
@@ -65,7 +65,7 @@ include '../config/products.php';
 					    	  <div class = 'row tag'>
 						    	  	<div class=" col-md-2 col-sm-3 col-xs-4">
 						    	  		<span class="label label-primary">
-						    	  			<span class="glyphicon glyphicon-tag"></span>标签
+						    	  			<span class="glyphicon glyphicon-tag"></span> 标签
 						    	  		</span>
 						    	  	</div>
 					    			<div class=" col-md-10 col-sm-9 col-xs-8 ">
@@ -94,7 +94,7 @@ c</div>
     	<div class="row contact-item list-item">
 			<div class=" col-md-2 col-sm-3 col-xs-4">
 					<span class="label label-primary">
-						<span class="glyphicon glyphicon-envelope"></span>qq
+						<span class="glyphicon glyphicon-envelope"></span> qq
 					</span>
 			</div>
 			<div class=" col-md-10 col-sm-9 col-xs-8 ">
@@ -104,7 +104,7 @@ c</div>
  		<div class="row contact-item list-item">
 			<div class=" col-md-2 col-sm-3 col-xs-4">
 					<span class="label label-primary">
-						<span class="glyphicon glyphicon-credit-card"></span>淘宝店铺
+						<span class="glyphicon glyphicon-credit-card"></span> 淘宝店铺
 					</span>
 			</div>
 			<div class=" col-md-10 col-sm-9 col-xs-8 ">
